@@ -1,0 +1,236 @@
+import math
+import random
+
+
+print ("All Around the World" [7].upper()) #prints 8th letter in capital
+
+amount_num = 100
+print(amount_num) 
+account_num = 12345678
+
+pin_num = 1234
+
+amount_num = 120
+
+print(amount_num)                        
+
+my_name = "Keira"
+print (my_name)
+
+my_name = ("Keira")
+my_age = 33
+student = True
+
+student = False #this updates the variable, top down
+
+#first_name #indicates that its python (snake case)
+
+fav_drink = "monster".capitalize()
+
+print ("My favourite drink is", fav_drink)
+
+print (my_name, my_age, student)
+
+print ("My favourite drink is " + fav_drink)
+
+#you can use {} and .format () method
+
+fav_drink = "relentless".capitalize()
+
+print ("My favourite drink is {}".format (fav_drink))
+
+fav_drink = "Relentless" 
+print ("{}'s favourite drink is {}".format (my_name, fav_drink))
+
+print (f"My name is {my_name} and my favourite drink is {fav_drink}")
+#f is short for .format
+
+fav_drink = "coca cola".capitalize()
+
+print (f"My name is {my_name} and my favourite drink is {fav_drink}")
+
+#\ means ignore the next command so ('{}\')
+
+#+ - * **(to the power of x x) / % (modulus operator)
+
+num1 = 3 ** 3
+print (num1)
+
+num2 = 5 * 15
+print (num1 * num2)
+
+print (math.pi) #import math
+
+#=
+#*=
+#+=
+#/=
+#-= assignment operators
+
+num1 = 10
+num1 = num1 + 10
+print (num1)
+
+num1 += 10
+print (num1)
+
+num1 *= 2
+print (num1)
+
+num1 /= 5
+print (num1)
+
+i=10
+i=i+2
+
+print (i)
+
+my_name = ("Keira".capitalize())
+my_age =33
+fav_colour = "Purple"
+
+print (my_name, my_age, fav_colour)
+print (f"my name is {my_name}, my age is {my_age}, and my favourite colour is {fav_colour}" .capitalize())
+
+# name = input ("What's your name:")
+# age = int(input ("How old are you: "))
+# colour = input ("whats your favourite colour: ")
+
+breakfast = ("crumpets")
+lunch = ("potato")
+dinner = ("chilli")
+
+print (f"For breakfast today I had {breakfast}, then for lunch I had {lunch}, but for dinner I demolished some {dinner}")
+
+breakfast = ("Cornflakes")
+lunch = ("Baba Ganoush")
+dinner = ("Pizza")
+
+print (f"For breakfast today I had {breakfast}, then for lunch I had {lunch}, but for dinner I demolished some {dinner}")
+
+#food = {"breakfast":input("Breakfast?\n"),}
+#print(f"You had {food['Breakfast']} for Breakfast on day 1")
+#food.update({"Breakfast":input("breakfast?\n")})
+#print(f"You had {food['Breakfast']} for Breakfast on day 2")
+
+
+space1 = "x"
+space2 = "o"
+space3 =  ""
+space4 = "x"
+space5 = "x"
+space6 = ""
+space7 = "o"
+space8 = ""
+space9 = ""
+
+print ("   |   |  ")
+print (f" {space1} | {space2} | {space3} ")
+print ("   |   |  ")
+print("-----------")
+print ("   |   |  ")
+print (f" {space4} | {space5} | {space6} ")
+print ("   |   |  ")
+print("-----------")
+print ("   |   |  ")
+print (f" {space7} |{space8}   | {space9} ")
+print ("   |   |  ")
+
+place = ("London")
+print ("London is a nice city to visit")
+print ("London is a nice city to visit".replace ("London", "Chester"))
+
+#== equal
+#!= not equal
+#>= more than equal to
+
+age = 67
+
+if age >= 18 and age <= 66 :
+    print ("I am able to serve you your alcoholic beverage")
+elif age >= 65:
+    print ("Why are you drinking? you're far too mature for this")
+else:
+    print ("I am not able to serve you, you swine")
+
+place = "Chester"
+weather = "Sunny"
+
+if place == "Chester" and weather == "Sunny":
+    print ("Suns out, guns out")
+elif place == "Chester" and weather == "Rainy":
+    print ("Brollys out")
+else: 
+    print ("What is the weather doing today?!")
+
+age = 67
+country = ("America")
+
+if age >= 18 and age <= 66 :
+    print ("I am able to serve you your alcoholic beverage")
+elif country == "UK":
+    print ("I am able to serve you your alcoholic beverage")
+elif age >= 65 :
+    print ("Why are you drinking? you're far too mature for this")
+else:
+    print ("I am not able to serve you, you swine")
+
+day = "Friday"
+
+if day == "Saturday" or day == "Sunday":
+    print ("Drink o'clock")
+else: 
+    print ("Stay sober, idiot")
+
+password = ("live87")
+
+print (len(password))
+if len (password) >= 7 :
+    print ("Passsword is completely appropriate")
+else:
+    print ("Your password is too short")
+
+num = 53
+if num % 2 == 1: #0 = no remainder 1 = 1 remainder
+    print ("Divisible by 5") #completely divisible by 2 no remainders
+else: 
+    print ("Better luck next time")
+
+
+num = 21
+
+if num % 3 == 0 and num % 7 == 0:
+    print ("Fizzbuzz") 
+elif num % 7 == 0:
+    print ("Buzz") 
+elif num % 3 == 0:
+    print ("Fizz")
+else:
+    print (num)
+
+
+word = "supercalifragilisticexpialedocious"
+if word[0] == word [-1] :
+    print ("True")
+else: 
+    print ("False")
+
+time = 15
+town_of_work = ("chester")
+place_of_home = ("home")
+
+if time >= (8):
+    print (town_of_work)
+elif time >= (16): 
+    print (place_of_home)
+
+
+num1 = 15
+num2 = 8
+
+if (num1 + num2) % 2 == 0:
+    print ("Success")
+else:
+    print ("Massive Fail")
+
+
